@@ -1,0 +1,23 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0      76190     0.0001    14.3440  2.02042  2.02042  1.95719  0.54021     2775
+openff_unconstrained-2.2.1      76190     0.0001     8.4055  2.08540  2.08540  2.03358  0.49308     2006
+openff_unconstrained-2.2.1-sdata      76190     0.0001    14.4741  2.05495  2.05495  2.00241  0.51033     2346
+Filtering dataset
+Number of molecules kept by filter: 230
+Number of molecules filtered out: 75960
+
+
+Stats for molecules that include 4r_heteroatoms
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0        230     1.5043     3.6531  2.37893  2.37893  2.14906  0.58274        0
+openff_unconstrained-2.2.1        230     1.5090     4.7032  2.44348  2.44348  2.12497  0.74165       10
+openff_unconstrained-2.2.1-sdata        230     1.5209     3.9352  2.36375  2.36375  2.08713  0.63559        0
+
+Stats for molecules that don't include 4r_heteroatoms
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0      75960     0.0001    14.3440  2.01934  2.01934  1.95625  0.53972     2730
+openff_unconstrained-2.2.1      75960     0.0001     8.4055  2.08432  2.08432  2.03328  0.49174     1975
+openff_unconstrained-2.2.1-sdata      75960     0.0001    14.4741  2.05402  2.05402  2.00198  0.50962     2315
+Saving plots to 210_221_221s/problems_removed/4r_heteroatoms/icrmsd/

@@ -1,0 +1,23 @@
+Excluding problem molecules: ('problem_ids/all_r7_outliers.txt', 'problem_ids/all_r8_outliers.txt', 'problem_ids/proton_rearr.txt', 'problem_ids/sx4_outliers.txt')
+Stats for all data, with problem molecules excluded:
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0      76190     0.0000     3.4085  0.25339  0.25339  0.17210  0.25176     6042
+openff_unconstrained-2.2.1      76190     0.0000     3.3156  0.25711  0.25711  0.17423  0.25341     6090
+openff_unconstrained-2.2.1-sdata      76190     0.0000     4.0956  0.25685  0.25685  0.17416  0.25281     6126
+Filtering dataset
+Number of molecules kept by filter: 6196
+Number of molecules filtered out: 69994
+
+
+Stats for molecules that include sulfonamides
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0       6196     0.0335     2.7554  0.31624  0.31624  0.22946  0.27044      406
+openff_unconstrained-2.2.1       6196     0.0311     2.8622  0.32174  0.32174  0.23623  0.27675      408
+openff_unconstrained-2.2.1-sdata       6196     0.0327     3.1780  0.32397  0.32397  0.22806  0.28748      433
+
+Stats for molecules that don't include sulfonamides
+Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
+openff_unconstrained-2.1.0      69994     0.0000     3.4085  0.24782  0.24782  0.16797  0.24927     5654
+openff_unconstrained-2.2.1      69994     0.0000     3.3156  0.25139  0.25139  0.16995  0.25044     5741
+openff_unconstrained-2.2.1-sdata      69994     0.0000     4.0956  0.25091  0.25091  0.17007  0.24864     5710
+Saving plots to 210_221_221s/problems_removed/sulfonamides/rmsd/
