@@ -5,19 +5,19 @@ openff_unconstrained-2.1.0      66340   -44.9638    26.1884 -0.64307  1.92963 -0
 openff_unconstrained-2.2.1      66340   -45.1941    27.5737 -0.70180  1.96181 -0.30744  2.83578        0
 openff_unconstrained-2.2.1-sdata      66340   -45.0574    26.5520 -0.71208  1.93928 -0.32093  2.80700        0
 Filtering dataset
-Number of molecules kept by filter: 2616
-Number of molecules filtered out: 73240
+Number of molecules kept by filter: 7137
+Number of molecules filtered out: 68719
 
 
 Stats for molecules that include 5r_S
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0       2265   -13.7454     9.0408 -0.65838  1.60541 -0.27000  2.29547        0
-openff_unconstrained-2.2.1       2265   -12.5024     8.9929 -0.67013  1.60559 -0.24452  2.27826        0
-openff_unconstrained-2.2.1-sdata       2265   -13.0911     8.1281 -0.72605  1.61352 -0.29051  2.30956        0
+openff_unconstrained-2.1.0       6217   -20.9370    11.0946 -0.74493  1.86309 -0.36053  2.62481        0
+openff_unconstrained-2.2.1       6217   -22.7551    11.2074 -0.79587  1.85817 -0.39002  2.61376        0
+openff_unconstrained-2.2.1-sdata       6217   -25.1958    11.1530 -0.84303  1.87267 -0.43293  2.61654        0
 
 Stats for molecules that don't include 5r_S
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0      64075   -44.9638    26.1884 -0.64253  1.94109 -0.25894  2.81693        0
-openff_unconstrained-2.2.1      64075   -45.1941    27.5737 -0.70292  1.97440 -0.31008  2.85349        0
-openff_unconstrained-2.2.1-sdata      64075   -45.0574    26.5520 -0.71159  1.95080 -0.32176  2.82298        0
+openff_unconstrained-2.1.0      60123   -44.9638    26.1884 -0.63253  1.93651 -0.24913  2.81808        0
+openff_unconstrained-2.2.1      60123   -45.1941    27.5737 -0.69207  1.97253 -0.29901  2.85758        0
+openff_unconstrained-2.2.1-sdata      60123   -45.0574    26.5520 -0.69854  1.94617 -0.31081  2.82562        0
 Saving plots to 210_221_221s/problems_removed/5r_S/dde/

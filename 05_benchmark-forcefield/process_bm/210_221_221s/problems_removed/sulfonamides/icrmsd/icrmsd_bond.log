@@ -5,19 +5,19 @@ openff_unconstrained-2.1.0      76190     0.0031     0.4062  0.01579  0.01579  0
 openff_unconstrained-2.2.1      76190     0.0007     0.0591  0.01630  0.01630  0.01587  0.00378     1635
 openff_unconstrained-2.2.1-sdata      76190     0.0023     0.4134  0.01601  0.01601  0.01550  0.00722     1547
 Filtering dataset
-Number of molecules kept by filter: 6196
-Number of molecules filtered out: 69994
+Number of molecules kept by filter: 6219
+Number of molecules filtered out: 69971
 
 
 Stats for molecules that include sulfonamides
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0       6196     0.0073     0.0478  0.01812  0.01812  0.01784  0.00436      146
-openff_unconstrained-2.2.1       6196     0.0085     0.0544  0.01828  0.01828  0.01697  0.00555      194
-openff_unconstrained-2.2.1-sdata       6196     0.0079     0.3003  0.01799  0.01799  0.01669  0.01173      206
+openff_unconstrained-2.1.0       6219     0.0073     0.0478  0.01813  0.01813  0.01786  0.00437      145
+openff_unconstrained-2.2.1       6219     0.0085     0.0544  0.01831  0.01831  0.01699  0.00558      188
+openff_unconstrained-2.2.1-sdata       6219     0.0079     0.3003  0.01802  0.01802  0.01672  0.01172      203
 
 Stats for molecules that don't include sulfonamides
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0      69994     0.0031     0.4062  0.01558  0.01558  0.01518  0.00638     1246
-openff_unconstrained-2.2.1      69994     0.0007     0.0591  0.01613  0.01613  0.01579  0.00353      977
-openff_unconstrained-2.2.1-sdata      69994     0.0023     0.4134  0.01583  0.01583  0.01543  0.00665     1075
+openff_unconstrained-2.1.0      69971     0.0031     0.4062  0.01558  0.01558  0.01518  0.00638     1241
+openff_unconstrained-2.2.1      69971     0.0007     0.0591  0.01612  0.01612  0.01578  0.00352      962
+openff_unconstrained-2.2.1-sdata      69971     0.0023     0.4134  0.01583  0.01583  0.01542  0.00665     1061
 Saving plots to 210_221_221s/problems_removed/sulfonamides/icrmsd/

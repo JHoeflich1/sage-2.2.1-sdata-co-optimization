@@ -5,19 +5,19 @@ openff_unconstrained-2.1.0      76190     0.0031     0.4062  0.01579  0.01579  0
 openff_unconstrained-2.2.1      76190     0.0007     0.0591  0.01630  0.01630  0.01587  0.00378     1635
 openff_unconstrained-2.2.1-sdata      76190     0.0023     0.4134  0.01601  0.01601  0.01550  0.00722     1547
 Filtering dataset
-Number of molecules kept by filter: 2625
-Number of molecules filtered out: 73565
+Number of molecules kept by filter: 7159
+Number of molecules filtered out: 69031
 
 
 Stats for molecules that include 5r_S
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0       2625     0.0086     0.0387  0.01645  0.01645  0.01584  0.00409      120
-openff_unconstrained-2.2.1       2625     0.0087     0.0413  0.01666  0.01666  0.01628  0.00372       61
-openff_unconstrained-2.2.1-sdata       2625     0.0093     0.0419  0.01681  0.01681  0.01635  0.00392       94
+openff_unconstrained-2.1.0       7159     0.0069     0.0389  0.01640  0.01640  0.01605  0.00408      236
+openff_unconstrained-2.2.1       7159     0.0080     0.0476  0.01699  0.01699  0.01651  0.00403      188
+openff_unconstrained-2.2.1-sdata       7159     0.0038     0.0458  0.01654  0.01654  0.01617  0.00417      203
 
 Stats for molecules that don't include 5r_S
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0      73565     0.0031     0.4062  0.01576  0.01576  0.01535  0.00634     1349
-openff_unconstrained-2.2.1      73565     0.0007     0.0591  0.01629  0.01629  0.01585  0.00378     1574
-openff_unconstrained-2.2.1-sdata      73565     0.0023     0.4134  0.01598  0.01598  0.01547  0.00731     1452
+openff_unconstrained-2.1.0      69031     0.0031     0.4062  0.01572  0.01572  0.01529  0.00646     1230
+openff_unconstrained-2.2.1      69031     0.0007     0.0591  0.01623  0.01623  0.01580  0.00374     1384
+openff_unconstrained-2.2.1-sdata      69031     0.0023     0.4134  0.01595  0.01595  0.01544  0.00747     1344
 Saving plots to 210_221_221s/problems_removed/5r_S/icrmsd/

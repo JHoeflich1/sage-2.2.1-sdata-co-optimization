@@ -5,19 +5,19 @@ openff_unconstrained-2.1.0      76190     0.0000     3.4085  0.25339  0.25339  0
 openff_unconstrained-2.2.1      76190     0.0000     3.3156  0.25711  0.25711  0.17423  0.25341     6090
 openff_unconstrained-2.2.1-sdata      76190     0.0000     4.0956  0.25685  0.25685  0.17416  0.25281     6126
 Filtering dataset
-Number of molecules kept by filter: 89
-Number of molecules filtered out: 76101
+Number of molecules kept by filter: 149
+Number of molecules filtered out: 76041
 
 
 Stats for molecules that include phosphates
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0         89     0.0879     1.7634  0.45048  0.45048  0.39379  0.27380        1
-openff_unconstrained-2.2.1         89     0.0869     1.8229  0.45104  0.45104  0.33863  0.31251        4
-openff_unconstrained-2.2.1-sdata         89     0.0934     2.0117  0.46122  0.46122  0.37471  0.30662        2
+openff_unconstrained-2.1.0        149     0.0879     1.7634  0.36248  0.36248  0.26806  0.24968        5
+openff_unconstrained-2.2.1        149     0.0869     1.8229  0.35496  0.35496  0.27625  0.27546        9
+openff_unconstrained-2.2.1-sdata        149     0.0905     2.0117  0.37698  0.37698  0.27616  0.27760        5
 
 Stats for molecules that don't include phosphates
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0      76101     0.0000     3.4085  0.25316  0.25316  0.17191  0.25164     6036
-openff_unconstrained-2.2.1      76101     0.0000     3.3156  0.25689  0.25689  0.17411  0.25325     6085
-openff_unconstrained-2.2.1-sdata      76101     0.0000     4.0956  0.25662  0.25662  0.17403  0.25264     6118
+openff_unconstrained-2.1.0      76041     0.0000     3.4085  0.25317  0.25317  0.17190  0.25172     6034
+openff_unconstrained-2.2.1      76041     0.0000     3.3156  0.25692  0.25692  0.17410  0.25333     6079
+openff_unconstrained-2.2.1-sdata      76041     0.0000     4.0956  0.25662  0.25662  0.17402  0.25270     6113
 Saving plots to 210_221_221s/problems_removed/phosphates/rmsd/

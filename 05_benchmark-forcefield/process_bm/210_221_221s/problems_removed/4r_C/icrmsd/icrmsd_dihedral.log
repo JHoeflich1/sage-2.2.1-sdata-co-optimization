@@ -5,19 +5,19 @@ openff_unconstrained-2.1.0      76184     0.0000    70.2499  7.17234  7.17234  5
 openff_unconstrained-2.2.1      76184     0.0000    64.6554  7.27377  7.27377  5.59625  5.99670        0
 openff_unconstrained-2.2.1-sdata      76184     0.0000    65.3172  7.22098  7.22098  5.54527  5.95598        0
 Filtering dataset
-Number of molecules kept by filter: 1224
-Number of molecules filtered out: 74966
+Number of molecules kept by filter: 1234
+Number of molecules filtered out: 74956
 
 
 Stats for molecules that include 4r_C
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0       1224     0.0653    35.7654  6.82917  6.82917  5.50564  4.83815       94
-openff_unconstrained-2.2.1       1224     0.3175    44.0209  8.20544  8.20544  6.69143  4.89364       94
-openff_unconstrained-2.2.1-sdata       1224     0.0722    44.1263  6.82567  6.82567  5.38033  4.96660       75
+openff_unconstrained-2.1.0       1234     0.0653    35.7654  6.94299  6.94299  5.53317  4.98034      100
+openff_unconstrained-2.2.1       1234     0.3175    44.0209  8.27574  8.27574  6.74262  4.93575       99
+openff_unconstrained-2.2.1-sdata       1234     0.0722    44.1263  7.01805  7.01805  5.39577  5.38521       84
 
 Stats for molecules that don't include 4r_C
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0      74960     0.0000    70.2499  7.17794  7.17794  5.45943  6.01231        0
-openff_unconstrained-2.2.1      74960     0.0000    64.6554  7.25856  7.25856  5.56506  6.01184        0
-openff_unconstrained-2.2.1-sdata      74960     0.0000    65.3172  7.22744  7.22744  5.54838  5.97056        0
+openff_unconstrained-2.1.0      74950     0.0000    70.2499  7.17611  7.17611  5.45813  6.01063        0
+openff_unconstrained-2.2.1      74950     0.0000    64.6554  7.25727  7.25727  5.56448  6.01121        0
+openff_unconstrained-2.2.1-sdata      74950     0.0000    65.3172  7.22432  7.22432  5.54801  5.96487        0
 Saving plots to 210_221_221s/problems_removed/4r_C/icrmsd/

@@ -5,19 +5,19 @@ openff_unconstrained-2.1.0      76190     0.0000     3.4085  0.25339  0.25339  0
 openff_unconstrained-2.2.1      76190     0.0000     3.3156  0.25711  0.25711  0.17423  0.25341     6090
 openff_unconstrained-2.2.1-sdata      76190     0.0000     4.0956  0.25685  0.25685  0.17416  0.25281     6126
 Filtering dataset
-Number of molecules kept by filter: 230
-Number of molecules filtered out: 75960
+Number of molecules kept by filter: 3097
+Number of molecules filtered out: 73093
 
 
 Stats for molecules that include 4r_heteroatoms
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0        230     0.0598     1.0724  0.22911  0.22911  0.17309  0.16841       14
-openff_unconstrained-2.2.1        230     0.0519     1.0979  0.23610  0.23610  0.18152  0.16545       12
-openff_unconstrained-2.2.1-sdata        230     0.0519     1.1357  0.24221  0.24221  0.18250  0.18008       12
+openff_unconstrained-2.1.0       3097     0.0383     2.8722  0.28979  0.28979  0.20681  0.26137      210
+openff_unconstrained-2.2.1       3097     0.0339     2.8950  0.30171  0.30171  0.22215  0.26816      204
+openff_unconstrained-2.2.1-sdata       3097     0.0357     2.1469  0.30068  0.30068  0.22456  0.26450      221
 
 Stats for molecules that don't include 4r_heteroatoms
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0      75960     0.0000     3.4085  0.25346  0.25346  0.17207  0.25197     6031
-openff_unconstrained-2.2.1      75960     0.0000     3.3156  0.25718  0.25718  0.17419  0.25363     6076
-openff_unconstrained-2.2.1-sdata      75960     0.0000     4.0956  0.25690  0.25690  0.17413  0.25300     6115
+openff_unconstrained-2.1.0      73093     0.0000     3.4085  0.25184  0.25184  0.17064  0.25123     5886
+openff_unconstrained-2.2.1      73093     0.0000     3.3156  0.25522  0.25522  0.17244  0.25259     5908
+openff_unconstrained-2.2.1-sdata      73093     0.0000     4.0956  0.25500  0.25500  0.17222  0.25214     5927
 Saving plots to 210_221_221s/problems_removed/4r_heteroatoms/rmsd/

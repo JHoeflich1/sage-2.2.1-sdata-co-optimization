@@ -105,6 +105,7 @@ def boxplot(datasets,labels,filename,title=''):
     data_dict = {label:datasets[i] for i,label in enumerate(labels)}
     plt.figure()
     sns.boxplot(data=pd.DataFrame(data_dict))
+    plt.ylim(0,6)
     plt.title(title)
     plt.savefig(filename)
 

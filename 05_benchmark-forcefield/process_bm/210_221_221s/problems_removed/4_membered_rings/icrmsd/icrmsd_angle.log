@@ -5,19 +5,19 @@ openff_unconstrained-2.1.0      76190     0.0001    14.3440  2.02042  2.02042  1
 openff_unconstrained-2.2.1      76190     0.0001     8.4055  2.08540  2.08540  2.03358  0.49308     2006
 openff_unconstrained-2.2.1-sdata      76190     0.0001    14.4741  2.05495  2.05495  2.00241  0.51033     2346
 Filtering dataset
-Number of molecules kept by filter: 4257
-Number of molecules filtered out: 71933
+Number of molecules kept by filter: 4267
+Number of molecules filtered out: 71923
 
 
 Stats for molecules that include 4_membered_rings
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0       4257     1.0569     4.1684  2.15834  2.15834  2.11955  0.37908      127
-openff_unconstrained-2.2.1       4257     1.0569     4.7032  2.36627  2.36627  2.30626  0.48754       57
-openff_unconstrained-2.2.1-sdata       4257     1.0057     3.9352  2.16162  2.16162  2.12923  0.38449      142
+openff_unconstrained-2.1.0       4267     1.0569    14.3440  2.18689  2.18689  2.12110  0.70017      137
+openff_unconstrained-2.2.1       4267     1.0569     4.7951  2.37192  2.37192  2.30764  0.50070       67
+openff_unconstrained-2.2.1-sdata       4267     1.0057    14.4741  2.19046  2.19046  2.13005  0.70819      148
 
 Stats for molecules that don't include 4_membered_rings
 Dataset                         Size        Min        Max      MSE      MAE   Median      STD # outliers
-openff_unconstrained-2.1.0      71933     0.0001    14.3440  2.01226  2.01226  1.94572  0.54718     2678
-openff_unconstrained-2.2.1      71933     0.0001     8.4055  2.06878  2.06878  2.01871  0.48837     1963
-openff_unconstrained-2.2.1-sdata      71933     0.0001    14.4741  2.04864  2.04864  1.99325  0.51612     2210
+openff_unconstrained-2.1.0      71923     0.0001    11.2459  2.01055  2.01055  1.94563  0.52756     2669
+openff_unconstrained-2.2.1      71923     0.0001     8.4055  2.06841  2.06841  2.01867  0.48736     1955
+openff_unconstrained-2.2.1-sdata      71923     0.0001    11.8303  2.04691  2.04691  1.99314  0.49495     2202
 Saving plots to 210_221_221s/problems_removed/4_membered_rings/icrmsd/

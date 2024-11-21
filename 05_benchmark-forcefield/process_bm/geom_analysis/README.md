@@ -1,0 +1,1 @@
+Plots of the per-parameter errors. Includes all conformers, with problem_ids filtered out. Includes scripts to re-generate the JSON files needed to reproduce the work, but not the JSON files, since they are huge
